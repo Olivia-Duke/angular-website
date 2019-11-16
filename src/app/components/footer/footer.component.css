@@ -1,0 +1,14 @@
+.footer {
+  text-align: center;
+}
+
+.sticky-footer {
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  font-size: 10px;
+}
