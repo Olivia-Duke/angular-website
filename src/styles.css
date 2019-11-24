@@ -8,8 +8,16 @@ body {
   color: #FEFEFE;
 }
 
+.main-content {
+  padding-top: 50px;
+}
+
 .card {
   background-color: #212121;
+}
+
+.spaced-card {
+  margin-bottom: 2rem;
 }
 
 .v-spacer {

@@ -3,10 +3,14 @@
     "Angular",
     "Node.js",
     "Java",
-    "Spring",
-    "HTML & CSS"
+    "Gradle",
+    "HTML & CSS",
+    "Wiremock"
   ],
   "familiar": [
+    "Spring",
+    "Cucumber",
+    "Selenium",
     "SQL/SQLite"
   ]
 }

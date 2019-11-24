@@ -1,4 +1,5 @@
-import {Component, Input} from '@angular/core';
+import {Component} from '@angular/core';
+import bookData from '../../../../../assets/text-content/currently-reading.json';
 
 @Component({
   selector: 'app-book',
@@ -6,7 +7,5 @@ import {Component, Input} from '@angular/core';
   styleUrls: ['./book.component.css']
 })
 export class BookComponent {
-  @Input() bookTitle: string;
-  @Input() bookAuthor: string;
-  @Input() bookBlurb: string;
+  books = bookData;
 }

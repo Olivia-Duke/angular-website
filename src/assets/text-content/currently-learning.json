@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "Node.js",
+    "content": "My current interests have lead me to further explore Node.js. Outside of the basic scripts I plan on delving further into using it for REST API development."
+  },
+  {
+    "subject": "Angular",
+    "content": "I started learning Angular in early 2017 and since then we have seen four more releases! Angular is a constantly evolving framework like so many others, so the learning is never <i>really</i> done."
+  },
+  {
+    "subject": "Spring Framework",
+    "content": "The Spring Java Framework is used heavily where I currently work so I am continuously learning about this extremely robust tool."
+  }
+]
