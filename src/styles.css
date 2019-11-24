@@ -1,2 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
-/*@import "../node_modules/bootstrap/dist/css/bootstrap.css";*/
+.bg-dark {
+  background-color: #212121 !important;
+}
+
+body {
+  background-color: #313131;
+  color: #FEFEFE;
+}
+
+.card {
+  background-color: #212121;
+}
+
+.v-spacer {
+  height: 1rem;
+}
+
+.brand-primary {
+  background-color:#176B64;
+  color:#313131;
+  padding:5px;
+}
+
+.brand-secondary {
+  background-color:#313131;
+  color:#176B64;
+  padding:5px;
+}
+
+img {
+  width: 100%;
+}

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {AppComponent} from './app.component';
 import {ProjectsComponent} from './components/projects/projects.component';
 import {MusicComponent} from './components/music/music.component';
 import {WishlistComponent} from './components/wishlist/wishlist.component';
