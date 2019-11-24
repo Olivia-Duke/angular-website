@@ -1,0 +1,17 @@
+[
+  {
+    "title": "You don't know JavaScript Series",
+    "author": "Kyle Simpson",
+    "blurb": "I have been using JavaScript in some for or another for quite some time. I wanted to get to know the language's inner workings better and become a better developer for it."
+  },
+  {
+    "title": "Java a Beginner's Guide: Seventh Edition",
+    "author": "Schildt",
+    "blurb": "I picked this up as a refresher to the core concepts and to hopefully learn many new things about Java. The beginning of this book is more focused on someone new to programming, but the book provides ample information on the inner workings of the Java language."
+  },
+  {
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "blurb": "I still read through this whenever I have some time to do so."
+  }
+]
