@@ -1,50 +1,13 @@
 <div class="container">
   <h1>Homepage</h1>
-  <div class="row">
-    <div class="col-md-4 col-sm-12">
-      <img src="../../../assets/images/Me.jpg" alt="Portrait of Jackson Duke" style="max-width: 300px;">
-    </div>
-    <div class="col-md-8 col-sm-12">
-      Hello!
-      <br>
-      My name is Jackson Duke and I would like to thank you for taking the time to visit my website. I graduated from The University of Texas at Dallas with a BS in computer science on December 16, 2017.
-      <br>
-      I have over 4 years of experience in Java programming, two years experience with C#, a familiarity with Node.js, and have some experience with Android application development. I like to tinker with audio, video, and work on personal projects in my spare time.
-      <br>
-      If you would like to get in contact with me, please visit my <a href="https://www.linkedin.com/in/jackson-duke">LinkedIn</a> profile.
-    </div>
-  </div>
+  <app-content-header [contentHeading]="contentHeading"></app-content-header>
   <div class="w-100 v-spacer"></div>
   <div class="row">
-    <div class="col-md-8">
-      <div class="card">
-        <div class="card-body">
-          <div class="card-title">
-            Currently Reading
-          </div>
-          <div *ngFor="let book of books">
-            <app-book bookTitle="{{book.title}}" bookAuthor="{{book.author}}" bookBlurb="{{book.blurb}}"></app-book>
-          </div>
-        </div>
-      </div>
+    <div class="col-xs-8 col-md-8">
+      <app-book></app-book>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <div class="card-title">
-            Proficiencies
-          </div>
-          <div class="card-text">
-            <ul>
-              <li>Node.js</li>
-              <li>Java</li>
-              <li>HTML & CSS</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="col-xs-4 col-md-4">
+      <app-tools-and-tech></app-tools-and-tech>
     </div>
   </div>
 </div>
-
-

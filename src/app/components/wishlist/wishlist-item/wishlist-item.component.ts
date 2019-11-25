@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-wishlist-item',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./wishlist-item.component.css']
 })
 export class WishlistItemComponent {
-  title = 'personal-website';
+  title = 'Jackson Duke | Wishlist';
+  @Input() itemName: string;
+  @Input() itemPrice: number;
+  @Input() itemImage: string;
+  @Input() itemLink: string;
+  @Input() itemBlurb: string;
+
+  openLink() {
+    window.open(this.itemLink, '_blank');
+  }
 }

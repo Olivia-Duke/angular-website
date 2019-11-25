@@ -1,0 +1,8 @@
+{
+    "image": {
+      "href": "Me.jpg",
+      "alt": "Jackson Duke"
+    },
+    "title": "About Me",
+    "content": "Hello!<br><br>My name is Jackson Duke and I would like to thank you for taking the time to visit my website. I graduated from The University of Texas at Dallas with a BS in computer science on December 16, 2017.<br><br>I have experience in Java programming using the Spring framework, have done some previous digging into C#, familiar with Node.js and both the Angular and React frameworks.<br><br>If you would like to get in contact with me, please visit my <a href=\"https://www.linkedin.com/in/jackson-duke\">LinedIn</a> profile."
+}

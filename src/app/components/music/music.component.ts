@@ -1,4 +1,6 @@
 import {Component} from '@angular/core';
+import {ContentHeading} from '../../models/ContentHeading';
+import musicContent from '../../../assets/text-content/music.content.json';
 
 @Component({
   selector: 'app-music',
@@ -6,5 +8,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./music.component.css']
 })
 export class MusicComponent {
-
+  contentHeading: ContentHeading = musicContent;
 }
