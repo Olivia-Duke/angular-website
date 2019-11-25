@@ -1,6 +1,5 @@
 import {Component, Input} from '@angular/core';
 import {Project} from '../../../models/project';
-import {Section} from '../../../models/project';
 
 @Component({
   selector: 'app-project-item',
@@ -9,5 +8,4 @@ import {Section} from '../../../models/project';
 })
 export class ProjectItemComponent {
   @Input() project: Project;
-  // sections = this.project.sections;
 }
