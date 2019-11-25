@@ -11,6 +11,7 @@ import {MusicComponent} from './components/music/music.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {HeaderComponent} from './components/header/header.component';
 import {FooterComponent} from './components/footer/footer.component';
+import {ProjectItemComponent} from './components/projects/project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {FooterComponent} from './components/footer/footer.component';
     FooterComponent,
     WishlistComponent,
     ProjectsComponent,
+    ProjectItemComponent,
     MusicComponent,
     WishlistItemComponent
   ],
