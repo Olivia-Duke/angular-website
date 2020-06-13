@@ -22,50 +22,15 @@
   ],
   "specificItems": [
     {
-      "name": "Dorohedoro, Vol. 4 and above",
-      "price": "$12-$15 each",
-      "link": "https://www.amazon.com/Dorohedoro-Vol-4-Q-Hayashida/dp/1421533782/",
-      "image": "dorohedoro.jpg",
-      "blurb": "I like this series! There are 20-something in total, but I only have Volumes 1 through 3 at the moment."
-    },
-    {
-      "name": "CrankBrothers F15 Multitool",
-      "price": "$26.47",
-      "link": "https://www.amazon.com/dp/B01M4OX0VE/",
-      "image": "cbf15.jpg",
-      "blurb": "Need a multi-tool if I'm going to go out on a bike. When riding my current bicycle (that I'm planning on replacing) I have been taking tools with me in case I need to tighten anything."
-    },
-    {
-      "name": "Ticket to Ride",
-      "price": "$49.95",
-      "link": "https://www.barnesandnoble.com/w/toys-games-ticket-to-ride/14520753",
-      "image": "ticket-to-ride.jpg",
-      "blurb": "Another board game I've been wanting. <b>Don't get this from Amazon</b> as a lot of reviews have been saying it's a counterfeit copy."
-    },
-    {
-      "name": "Saris Bones 2 Bike Rack",
-      "price": "$150",
-      "link": "https://www.saris.com/product/bones2",
-      "image": "bones2.jpg",
-      "blurb": "I'd like a bike rack for my car. You can get this locally from the bike shop down the street, Bycicles Inc."
-    },
-    {
-      "name": "Park Tool Home Mechanic Repair Stand - PCS-9.2",
-      "price": "$159.95",
-      "link": "https://www.amazon.com/Park-Tool-Mechanic-Repair-Stand/dp/B07PDS5M7H",
-      "image": "pcs92.jpg",
-      "blurb": "Even with the small amount of work I have put into bikes so far, working on them without a stand is a real pain."
-    },
-    {
-      "name": "Dell S Series LED-lit Monitor",
-      "price": "$200 (approximately)",
-      "link": "https://www.amazon.com/gp/product/B07JVQ8M3Q/",
-      "image": "dell_s_series_led_monitor.jpg",
-      "blurb": "I'd like to get a larger monitor for my computer. Price for this particular one varies as availability varies."
+      "name": "DJI Osmo Action",
+      "price": "$257.78",
+      "link": "https://www.amazon.com/DJI-Digital-Displays-Waterproof-HDR-Video/dp/B07RJMK2GV",
+      "image": "dui-osmo-action.jpg",
+      "blurb": "I've been eyeing this action camera."
     },
     {
       "name": "CZ 75 B Omega Convertible",
-      "price": "$511.99",
+      "price": "Approximately $550",
       "link": "https://grabagun.com/cz-75b-omega-9mm-4-7-16-1-fs.html",
       "image": "cz75b.jpg",
       "blurb": "It's a handgun I want. Pretty pricey so cash gift to contribute would be fine."
