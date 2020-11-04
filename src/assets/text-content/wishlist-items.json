@@ -34,8 +34,10 @@
       "blurb": "I'd like a larger bread pan."
     },{
       "name": "Re-usable bowl lids",
-      "price": "$15-$30",
-      "blurb": "There are many options available for this kind of thing, either stretch-over lids or silicon discs you simply place on top. Something large enough for some of the larger general-use kitchen bowls we have."
+      "price": "$15",
+      "link": "https://www.amazon.com/Reusable-Silicone-Stretch-Lids-Versatile/dp/B07P5BPP31",
+      "image": "lids.jpg",
+      "blurb": "Stretch-over lids large enough for some of the general-use kitchen bowls we have."
     },{
       "name": "Iwachu Iron Tamagoyaki Omelette Pan",
       "price": "$62.98",
