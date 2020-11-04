@@ -4,9 +4,9 @@
   </div>
   <div class="card-body" *ngIf="itemImage; else noImage">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 wishlist-item">
+      <a *ngIf="itemLink; else noItemLink" [href]="itemLink" target="_blank" class="col-xs-12 col-sm-12 col-md-4 wishlist-item">
         <img src="assets/images/wishlist/{{itemImage}}" alt="itemName">
-      </div>
+      </a>
       <div class="card-text col-xs-12 col-sm-12 col-md-8">
         <h6>Price: {{itemPrice}}</h6>
         <p [innerHTML]="itemBlurb"></p>
@@ -15,6 +15,12 @@
     </div>
   </div>
 </div>
+
+<ng-template #noItemLink>
+  <div class="col-xs-12 col-sm-12 col-md-4 wishlist-item">
+    <img src="assets/images/wishlist/{{itemImage}}" alt="itemName">
+  </div>
+</ng-template>
 
 <ng-template #noImage>
   <div class="card-body">

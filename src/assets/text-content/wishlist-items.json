@@ -1,10 +1,13 @@
 {
   "generalItems":  [
     {
-      "name": "Mazzeta's Spicy Mix",
-      "blurb": ""
+      "name": "Interesting food items",
+      "blurb": "Something weird that you normally wouldn't buy."
     },{
-      "name": "Picked Baby Corn",
+      "name": "Interesting cheeses",
+      "blurb": "Would be fun to sample something different. Doesn't matter if it's weird or if it ends up being gross. Just want to try new stuff."
+    },{
+      "name": "Kitchen utensils",
       "blurb": ""
     },{
       "name": "Anything else you think I would like"
@@ -24,6 +27,12 @@
       "image": "rolling-pin.jpg",
       "blurb": "I want a cylindrical rolling pin that doesn't have the beveled ends. Stainless steel or high-quality plastic preferred over wood."
     },{
+      "name": "Loaf Pan",
+      "price": "$19",
+      "link": "https://www.amazon.com/USA-Pan-1140LF-Bakeware-Aluminized/dp/B0029JQEIC",
+      "image": "loaf-pan.jpg",
+      "blurb": "I'd like a larger bread pan."
+    },{
       "name": "Re-usable bowl lids",
       "price": "$15-$30",
       "blurb": "There are many options available for this kind of thing, either stretch-over lids or silicon discs you simply place on top. Something large enough for some of the larger general-use kitchen bowls we have."
@@ -34,17 +43,23 @@
       "image": "tamagoyaki-pan.jpg",
       "blurb": "This is a nice square omelette pan I'd like to get eventually."
     },{
-      "name": "Money for a full-faced mountain bike helmet",
+      "name": "Cyglolite Hotshot Pro - 200",
+      "price": "~$40",
+      "link": "https://www.amazon.com/CYGOLITE-Tuneable-Resistant-Flexible-Rechargeable/dp/B07J2XBCG4",
+      "image": "cyglolite-hotshot-pro-200.jpg",
+      "blurb": "I need a taillight for my road bike. When it gets dark I don't want to rely on just a reflector."
+    },{
+      "name": "Samsung SSD 860 EVO 2TB SSD",
+      "price": "$250",
+      "link": "https://www.amazon.com/Samsung-Inch-Internal-MZ-76E2T0B-AM/dp/B0786QNSBD",
+      "image": "samsung-860-evo-2tb-ssd.jpg",
+      "blurb": "I could use more internal storage for my desktop computer."
+    },{
+      "name": "Money for Full-Faced downhill-rated Mountain Bike Helmet",
       "price": "$250 - $350",
       "link": "",
-      "image": "",
-      "blurb": "I need to get a full-faced mountain bike helmet so I can eventually take a day-trip to a downhill bike park!"
-    },{
-      "name": "Mountain Bike Shorts",
-      "price": "",
-      "link": "",
-      "image": "",
-      "blurb": ""
+      "image": "bell-super-dh.jpg",
+      "blurb": "I need to get a full-faced mountain bike helmet so I can eventually take a day-trip to a downhill bike park. I keep flip-flopping about which helmet I want specifically, but have still not quite made up my mind."
     },{
       "name": "Money for PC upgrade",
       "price": "$1,000+",
