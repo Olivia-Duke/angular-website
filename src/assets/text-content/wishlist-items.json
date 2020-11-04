@@ -1,42 +1,69 @@
 {
   "generalItems":  [
     {
-      "name": "Mazzeta's Spicy Mix",
+      "name": "Interesting food items",
+      "blurb": "Something weird that you normally wouldn't buy."
+    },{
+      "name": "Interesting cheeses",
+      "blurb": "Would be fun to sample something different. Doesn't matter if it's weird or if it ends up being gross. Just want to try new stuff."
+    },{
+      "name": "Kitchen utensils",
       "blurb": ""
-    },
-    {
-      "name": "Picked Baby Corn",
-      "blurb": ""
-    },
-    {
-      "name": "Gift card for Dillards (or cash)",
-      "blurb": "I need smaller belts and pants!"
-    },
-    {
-      "name": "Massage",
-      "blurb": "Still waiting to see what Christin thinks of Milk and Honey's massages, but I have been wanting one myself for a while."
-    },
-    {
+    },{
       "name": "Anything else you think I would like"
     }
   ],
   "specificItems": [
     {
-      "name": "DJI Osmo Action",
-      "price": "$257.78",
-      "link": "https://www.amazon.com/DJI-Digital-Displays-Waterproof-HDR-Video/dp/B07RJMK2GV",
-      "image": "dui-osmo-action.jpg",
-      "blurb": "I've been eyeing this action camera."
-    },
-    {
-      "name": "CZ 75 B Omega Convertible",
-      "price": "Approximately $550",
-      "link": "https://grabagun.com/cz-75b-omega-9mm-4-7-16-1-fs.html",
-      "image": "cz75b.jpg",
-      "blurb": "It's a handgun I want. Pretty pricey so cash gift to contribute would be fine."
-    },
-    {
-      "name": "Parts for my PC",
+      "name": "Dorohedoro, Vol. 11 and above",
+      "price": "$12-$15 each",
+      "link": "https://www.amazon.com/Dorohedoro-Vol-11-Q-Hayashida/dp/1421533855",
+      "image": "dorohedoro-11.jpg",
+      "blurb": "I have volumes 1-10, but there are 20-something in total so I'd like more of them."
+    },{
+      "name": "French Rolling Pin",
+      "price": "$14.98",
+      "link": "https://www.amazon.com/Professional-French-Rolling-Pin-Baking/dp/B01D7LLXW2",
+      "image": "rolling-pin.jpg",
+      "blurb": "I want a cylindrical rolling pin that doesn't have the beveled ends. Stainless steel or high-quality plastic preferred over wood."
+    },{
+      "name": "Loaf Pan",
+      "price": "$19",
+      "link": "https://www.amazon.com/USA-Pan-1140LF-Bakeware-Aluminized/dp/B0029JQEIC",
+      "image": "loaf-pan.jpg",
+      "blurb": "I'd like a larger bread pan."
+    },{
+      "name": "Re-usable bowl lids",
+      "price": "$15",
+      "link": "https://www.amazon.com/Reusable-Silicone-Stretch-Lids-Versatile/dp/B07P5BPP31",
+      "image": "lids.jpg",
+      "blurb": "Stretch-over lids large enough for some of the general-use kitchen bowls we have."
+    },{
+      "name": "Iwachu Iron Tamagoyaki Omelette Pan",
+      "price": "$62.98",
+      "link": "https://www.amazon.com/gp/product/B01GL2ZUOG",
+      "image": "tamagoyaki-pan.jpg",
+      "blurb": "This is a nice square omelette pan I'd like to get eventually."
+    },{
+      "name": "Cyglolite Hotshot Pro - 200",
+      "price": "~$40",
+      "link": "https://www.amazon.com/CYGOLITE-Tuneable-Resistant-Flexible-Rechargeable/dp/B07J2XBCG4",
+      "image": "cyglolite-hotshot-pro-200.jpg",
+      "blurb": "I need a taillight for my road bike. When it gets dark I don't want to rely on just a reflector."
+    },{
+      "name": "Samsung SSD 860 EVO 2TB SSD",
+      "price": "$250",
+      "link": "https://www.amazon.com/Samsung-Inch-Internal-MZ-76E2T0B-AM/dp/B0786QNSBD",
+      "image": "samsung-860-evo-2tb-ssd.jpg",
+      "blurb": "I could use more internal storage for my desktop computer."
+    },{
+      "name": "Money for Full-Faced downhill-rated Mountain Bike Helmet",
+      "price": "$250 - $350",
+      "link": "",
+      "image": "bell-super-dh.jpg",
+      "blurb": "I need to get a full-faced mountain bike helmet so I can eventually take a day-trip to a downhill bike park. I keep flip-flopping about which helmet I want specifically, but have still not quite made up my mind."
+    },{
+      "name": "Money for PC upgrade",
       "price": "$1,000+",
       "link": "",
       "image": "",
