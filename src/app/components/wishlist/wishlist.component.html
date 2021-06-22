@@ -6,17 +6,12 @@
     <div class="card-body">
       <div class="card-text">
         <ul>
-          <li *ngFor="let item of wishlist.generalItems">
+          <li *ngFor="let item of getGeneralItems()">
             <div>{{item.name}}<span *ngIf="item.blurb">: {{item.blurb}}</span></div>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <app-wishlist-item *ngFor="let item of wishlist.specificItems"
-                     [itemBlurb]="item.blurb"
-                     [itemLink]="item.link"
-                     [itemName]="item.name"
-                     [itemImage]="item.image"
-                     [itemPrice]="item.price"></app-wishlist-item>
+  <app-wishlist-item *ngFor="let item of getSpecificItems()" [item] = item></app-wishlist-item>
 </div>

@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {SpecificItem} from '../../../models/wishlist/specificItem';
 
 @Component({
   selector: 'app-wishlist-item',
@@ -7,13 +8,9 @@ import {Component, Input} from '@angular/core';
 })
 export class WishlistItemComponent {
   title = 'Jackson Duke | Wishlist';
-  @Input() itemName: string;
-  @Input() itemPrice: number;
-  @Input() itemImage: string;
-  @Input() itemLink: string;
-  @Input() itemBlurb: string;
+  @Input() item: SpecificItem;
 
   openLink() {
-    window.open(this.itemLink, '_blank');
+    window.open(this.item.link, '_blank');
   }
 }
