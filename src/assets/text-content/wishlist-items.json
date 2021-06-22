@@ -1,67 +1,48 @@
 {
   "generalItems":  [
     {
-      "name": "Interesting food items",
-      "blurb": "Something weird that you normally wouldn't buy."
+      "name": "Thai Select Gift Card"
     },{
-      "name": "Interesting cheeses",
-      "blurb": "Would be fun to sample something different. Doesn't matter if it's weird or if it ends up being gross. Just want to try new stuff."
-    },{
-      "name": "Kitchen utensils",
-      "blurb": ""
-    },{
-      "name": "Anything else you think I would like"
+      "name": "Freebirds Gift Card"
     }
   ],
   "specificItems": [
     {
-      "name": "Dorohedoro, Vol. 11 and above",
+      "name": "Dorohedoro, Vol. 15 and above",
       "price": "$12-$15 each",
-      "link": "https://www.amazon.com/Dorohedoro-Vol-11-Q-Hayashida/dp/1421533855",
-      "image": "dorohedoro-11.jpg",
-      "blurb": "I have volumes 1-10, but there are 20-something in total so I'd like more of them."
+      "link": "https://www.amazon.com/Dorohedoro-Vol-15-Q-Hayashida/dp/1421565374",
+      "image": "dorohedoro-15.jpg",
+      "blurb": "I have volumes 1-14, but there are 20-something in total so I'd like more of them."
     },{
-      "name": "French Rolling Pin",
-      "price": "$14.98",
-      "link": "https://www.amazon.com/Professional-French-Rolling-Pin-Baking/dp/B01D7LLXW2",
-      "image": "rolling-pin.jpg",
-      "blurb": "I want a cylindrical rolling pin that doesn't have the beveled ends. Stainless steel or high-quality plastic preferred over wood."
+      "name": "Berserk Deluxe, Vol. 3 and above",
+      "price": "~$50 each",
+      "link": "https://www.amazon.com/Berserk-Deluxe-3-Kentaro-Miura/dp/1506712002",
+      "image": "berserk-3.jpg",
+      "blurb": "I have the first one and the second one on order. I'd like to own them all eventually and there's quite a few."
     },{
-      "name": "Loaf Pan",
-      "price": "$19",
-      "link": "https://www.amazon.com/USA-Pan-1140LF-Bakeware-Aluminized/dp/B0029JQEIC",
-      "image": "loaf-pan.jpg",
-      "blurb": "I'd like a larger bread pan."
+      "name": "Oak Cliff Coffee Subscription",
+      "price": "~$66",
+      "link": "https://subscribe.oakcliffcoffee.com/subscriptions/gift/new",
+      "image": "oak-cliff.jpg",
+      "blurb": "I would love a coffee subscription from Oak Cliff. I tried a different brand recently but think I like this one more. You can pre-pay for a few shipments so something like the \"Roaster's Choice\" at the minimum length is fine."
     },{
-      "name": "Re-usable bowl lids",
-      "price": "$15",
-      "link": "https://www.amazon.com/Reusable-Silicone-Stretch-Lids-Versatile/dp/B07P5BPP31",
-      "image": "lids.jpg",
-      "blurb": "Stretch-over lids large enough for some of the general-use kitchen bowls we have."
+      "name": "rOtring 600 Ballpoint Pen Medium Point, Black Ink, Black Barrel",
+      "price": "$28.80",
+      "link": "https://www.amazon.com/ROTRING-600-Ballpoint-Pen-black/dp/B077GPND47",
+      "image": "rotring-pen.jpg",
+      "blurb": "I have one of these but it's a bit beat up and would like a replacement. I normally take it with me in my backpack when working at the office. I also can't find it at the moment..."
     },{
-      "name": "Iwachu Iron Tamagoyaki Omelette Pan",
-      "price": "$62.98",
-      "link": "https://www.amazon.com/gp/product/B01GL2ZUOG",
-      "image": "tamagoyaki-pan.jpg",
-      "blurb": "This is a nice square omelette pan I'd like to get eventually."
+      "name": "rOtring 600 0.5mm Silver Barrel Mechanical Pencil",
+      "price": "$24.19",
+      "link": "https://www.amazon.com/rOtring-Silver-Barrel-Mechanical-1904445/dp/B00AZX0GOM",
+      "image": "rotring-pencil.jpg",
+      "blurb": "I like the pen I have and would like a pencil of the same sort. Silver color so I can easily distinguish between the two though."
     },{
-      "name": "Cyglolite Hotshot Pro - 200",
-      "price": "~$40",
-      "link": "https://www.amazon.com/CYGOLITE-Tuneable-Resistant-Flexible-Rechargeable/dp/B07J2XBCG4",
-      "image": "cyglolite-hotshot-pro-200.jpg",
-      "blurb": "I need a taillight for my road bike. When it gets dark I don't want to rely on just a reflector."
-    },{
-      "name": "Samsung SSD 860 EVO 2TB SSD",
-      "price": "$250",
-      "link": "https://www.amazon.com/Samsung-Inch-Internal-MZ-76E2T0B-AM/dp/B0786QNSBD",
-      "image": "samsung-860-evo-2tb-ssd.jpg",
-      "blurb": "I could use more internal storage for my desktop computer."
-    },{
-      "name": "Money for Full-Faced downhill-rated Mountain Bike Helmet",
-      "price": "$250 - $350",
-      "link": "",
-      "image": "bell-super-dh.jpg",
-      "blurb": "I need to get a full-faced mountain bike helmet so I can eventually take a day-trip to a downhill bike park. I keep flip-flopping about which helmet I want specifically, but have still not quite made up my mind."
+      "name": "YAESU VX-6R Hand Held FM Transceiver",
+      "price": "$249.95",
+      "link": "https://www.hamradio.com/detail.cfm?pid=H0-007681",
+      "image": "yaesu.jpg",
+      "blurb": "Low priority. A handheld transceiver radio I've had my eyes on."
     },{
       "name": "Money for PC upgrade",
       "price": "$1,000+",

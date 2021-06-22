@@ -1,16 +1,16 @@
 <div class="card spaced-card">
   <div class="card-header">
-    <h3>{{itemName}}</h3>
+    <h3>{{item.name}}</h3>
   </div>
-  <div class="card-body" *ngIf="itemImage; else noImage">
+  <div class="card-body" *ngIf="item.image; else noImage">
     <div class="row">
-      <a *ngIf="itemLink; else noItemLink" [href]="itemLink" target="_blank" class="col-xs-12 col-sm-12 col-md-4 wishlist-item">
-        <img src="assets/images/wishlist/{{itemImage}}" alt="itemName">
+      <a *ngIf="item.link; else noItemLink" [href]="item.link" target="_blank" class="col-xs-12 col-sm-12 col-md-4 wishlist-item">
+        <img src="assets/images/wishlist/{{item.image}}" alt="itemName">
       </a>
       <div class="card-text col-xs-12 col-sm-12 col-md-8">
-        <h6>Price: {{itemPrice}}</h6>
-        <p [innerHTML]="itemBlurb"></p>
-        <button class="btn btn-dark" *ngIf="itemLink" (click)="openLink()">Go Get It!</button>
+        <h6>Price: {{item.price}}</h6>
+        <p [innerHTML]="item.blurb"></p>
+        <button class="btn btn-dark" *ngIf="item.link" (click)="openLink()">Go Get It!</button>
       </div>
     </div>
   </div>
@@ -18,15 +18,15 @@
 
 <ng-template #noItemLink>
   <div class="col-xs-12 col-sm-12 col-md-4 wishlist-item">
-    <img src="assets/images/wishlist/{{itemImage}}" alt="itemName">
+    <img src="assets/images/wishlist/{{item.image}}" alt="itemName">
   </div>
 </ng-template>
 
 <ng-template #noImage>
   <div class="card-body">
     <div class="card-text">
-      <h6>{{itemPrice}}</h6>
-      <p>{{itemBlurb}}</p>
+      <h6>{{item.price}}</h6>
+      <p>{{item.blurb}}</p>
     </div>
   </div>
 </ng-template>
