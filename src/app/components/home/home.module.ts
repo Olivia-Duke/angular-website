@@ -5,6 +5,7 @@ import {HomeComponent} from './home.component';
 import {ToolsAndTechComponent} from './content/proficiencies/tools-and-tech.component';
 import {ContentHeaderComponent} from './content/content-header/content-header.component';
 import {BookComponent} from './content/book/book.component';
+import {ServicesModule} from '../../service/services.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {BookComponent} from './content/book/book.component';
     ToolsAndTechComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ServicesModule
   ],
   exports: [
     ContentHeaderComponent,

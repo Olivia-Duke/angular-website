@@ -12,6 +12,9 @@ import {NavbarComponent} from './components/navbar/navbar.component';
 import {HeaderComponent} from './components/header/header.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {ProjectItemComponent} from './components/projects/project-item/project-item.component';
+import {LocalResourceService} from './service/local-resource-service';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {ServicesModule} from './service/services.module';
 
 @NgModule({
   declarations: [
@@ -28,9 +31,12 @@ import {ProjectItemComponent} from './components/projects/project-item/project-i
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    ServicesModule
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

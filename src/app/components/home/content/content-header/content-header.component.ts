@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {ContentHeading} from '../../../../models/ContentHeading';
+import {ContentHeading} from '../../../../models/content-heading';
 
 @Component({
   selector: 'app-content-header',
