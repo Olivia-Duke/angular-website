@@ -1,6 +1,6 @@
 <div class="container">
   <h1>Homepage</h1>
-  <app-content-header *ngIf="contentHeading; else loading" [contentHeading]="contentHeading"></app-content-header>
+  <app-content-header @componentEnter *ngIf="contentHeading; else loading" [contentHeading]="contentHeading"></app-content-header>
   <ng-template #loading> <app-loading-spinner></app-loading-spinner> </ng-template>
   <div class="w-100 v-spacer"></div>
   <div class="row">
