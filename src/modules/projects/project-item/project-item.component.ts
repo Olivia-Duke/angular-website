@@ -8,4 +8,21 @@ import {Project} from '../../home/models/project';
 })
 export class ProjectItemComponent {
   @Input() project: Project;
+  hidden = true;
+
+  getDataTarget() {
+    return `#${this.project.slug}-content`;
+  }
+
+  getControls() {
+    return `${this.project.slug}-content`;
+  }
+
+  clicked() {
+    this.hidden = !this.hidden;
+  }
+
+  topButtonText() {
+    return this.hidden ? 'Show me more' : 'Hide';
+  }
 }

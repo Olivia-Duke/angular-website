@@ -8,7 +8,7 @@
     </div>
     <div id="{{project.slug}}-accordion" class="accordion">
       <div id="{{project.slug}}-control">
-        <button class="btn btn-dark" type="button" data-toggle="collapse" attr.data-target="#{{project.slug}}-content" attr.aria-expanded="true" attr.aria-controls="{{project.slug}}-content">Show me more</button>
+        <button class="btn btn-dark" type="button" (click)="clicked()" data-toggle="collapse" [attr.data-target]="getDataTarget()" [attr.aria-expanded]="true" [attr.aria-controls]="getControls()">{{topButtonText()}}</button>
       </div>
       <div id="{{project.slug}}-content" class="collapse spaced-collapse">
         <ng-container *ngFor="let section of project.sections; index as i">
@@ -24,7 +24,7 @@
           </div>
         </ng-container>
         <div id="{{project.slug}}-hider">
-          <button class="btn btn-dark" type="button" data-toggle="collapse" attr.data-target="#{{project.slug}}-content" attr.aria-expanded="true" attr.aria-controls="{{project.slug}}-content">Hide</button>
+          <button class="btn btn-dark" type="button" (click)="clicked()" data-toggle="collapse" [attr.data-target]="getDataTarget()" [attr.aria-expanded]="true" [attr.aria-controls]="getControls()">Hide</button>
         </div>
       </div>
     </div>
