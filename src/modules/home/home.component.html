@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Homepage</h1>
+  <app-content-header *ngIf="contentHeading; else loading" [contentHeading]="contentHeading"></app-content-header>
+  <ng-template #loading> <app-loading-spinner></app-loading-spinner> </ng-template>
+  <div class="w-100 v-spacer"></div>
+  <div class="row">
+    <div class="col-xs-8 col-md-8">
+      <app-book></app-book>
+    </div>
+    <div class="col-xs-4 col-md-4">
+      <app-tools-and-tech></app-tools-and-tech>
+    </div>
+  </div>
+</div>
