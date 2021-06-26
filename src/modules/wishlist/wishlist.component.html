@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Wishlist</h1>
+  <div *ngIf="wishlist; else loading">
+    <div class="card spaced-card">
+      <div class="card-header">
+        <h3>General Items</h3>
+      </div>
+      <div class="card-body">
+        <div class="card-text">
+          <ul>
+            <li *ngFor="let item of getGeneralItems()">
+              <div>{{item.name}}<span *ngIf="item.blurb">: {{item.blurb}}</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <app-wishlist-item *ngFor="let item of getSpecificItems()" [item] = item></app-wishlist-item>
+  </div>
+  <ng-template #loading> <app-loading-spinner></app-loading-spinner></ng-template>
+</div>
