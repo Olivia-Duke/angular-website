@@ -13,13 +13,15 @@ import {ProjectsModule} from '../modules/projects/projects.module';
 import {ScrollToTopComponent} from './components/scroll-to-top/scroll-to-top.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MusicModule} from '../modules/music/music.module';
+import {NotFoundComponent} from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    ScrollToTopComponent
+    ScrollToTopComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

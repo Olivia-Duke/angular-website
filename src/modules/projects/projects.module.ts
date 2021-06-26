@@ -5,6 +5,7 @@ import {ServicesModule} from '../services/services.module';
 import {CommonModule} from '@angular/common';
 import {LocalResourceService} from '../services/local-resource-service';
 import {GlobalComponentsModule} from '../global-components/global-components.module';
+import {ProjectsRoutingModule} from './projects-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {GlobalComponentsModule} from '../global-components/global-components.mod
   imports: [
     CommonModule,
     ServicesModule,
-    GlobalComponentsModule
+    GlobalComponentsModule,
+    ProjectsRoutingModule
   ],
   exports: [
     ProjectsComponent

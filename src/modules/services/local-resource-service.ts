@@ -7,6 +7,10 @@ export class LocalResourceService {
   }
 
   public getJsonDocument(fileName: string): Promise<any> {
+    this.log('getJsonDocument');
     return this.http.get(fileName).toPromise();
+  }
+  private log = (message: string): void => {
+    console.log(`[LocalResourceService] ${message}`);
   }
 }

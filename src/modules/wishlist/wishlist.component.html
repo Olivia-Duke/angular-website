@@ -8,14 +8,14 @@
       <div class="card-body">
         <div class="card-text">
           <ul>
-            <li *ngFor="let item of getGeneralItems()">
+            <li *ngFor="let item of generalItems">
               <div>{{item.name}}<span *ngIf="item.blurb">: {{item.blurb}}</span></div>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <app-wishlist-item *ngFor="let item of getSpecificItems()" [item] = item></app-wishlist-item>
+    <app-wishlist-item *ngFor="let item of specificItems" [item] = item></app-wishlist-item>
   </div>
   <ng-template #loading> <app-loading-spinner></app-loading-spinner></ng-template>
 </div>

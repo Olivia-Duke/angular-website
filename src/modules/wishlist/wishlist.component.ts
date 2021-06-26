@@ -12,27 +12,34 @@ import {LocalResourceService} from '../services/local-resource-service';
 })
 export class WishlistComponent implements OnInit {
 
-  resourceLocation = '/assets/text-content/wishlist-items.json';
-
   constructor(
     private resourceService: LocalResourceService
   ) {}
 
+  resourceLocation = '/assets/text-content/wishlist-items.json';
+
   wishlist: Wishlist;
 
+  generalItems: WishlistItem[];
+  specificItems: SpecificItem[];
+
+
+
   ngOnInit() {
+    this.log('ngOnInit');
     this.resourceService.getJsonDocument(this.resourceLocation).then(result => {
       this.wishlist = result;
+      this.generalItems = wishlist.generalItems;
+      this.specificItems = wishlist.specificItems;
+
+      this.log(`generalItems: ${this.generalItems.length}`);
+      this.log(`specificItems: ${this.specificItems.length}`);
     }).catch(err => {
       console.error(err);
     });
   }
 
-  getSpecificItems(): SpecificItem[] {
-    return wishlist.specificItems;
-  }
-
-  getGeneralItems(): WishlistItem[] {
-    return wishlist.generalItems;
+  private log = (message: string): void => {
+    console.log(`[WishListComponent] ${message}`);
   }
 }
