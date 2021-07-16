@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration=production && tar -zcvf dist/personal-website.tar.gz dist/*",
+    "build:prod": "ng build --configuration=production",
     "test:ng": "ng test",
     "test": "echo 'Not Implemented'",
     "lint": "ng lint",
