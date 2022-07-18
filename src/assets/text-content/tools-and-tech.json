@@ -1,18 +1,19 @@
 {
   "proficient": [
-    "Angular",
-    "Node.js",
     "Java",
     "Java Spring Boot",
+    "Angular",
+    "Node.js",
+    "IBM DB2",
     "Gradle",
     "HTML & CSS",
     "Wiremock"
   ],
   "familiar": [
+    "PostgreSQL",
+    "Selenium",
     "C#",
     "Unity Game Engine",
-    "Cucumber",
-    "Selenium",
-    "SQL/SQLite"
+    "Cucumber"
   ]
 }

@@ -5,13 +5,13 @@
     </div>
     <div *ngIf="toolsAndTech; else loading" class="card-text">
       <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-12">
+        <div class="col-xs-6 col-sm-6 col-md-6">
           <h6>I am proficient with...</h6>
           <ul>
             <li *ngFor="let proficiency of toolsAndTech.proficient">{{proficiency}}</li>
           </ul>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-12">
+        <div class="col-xs-6 col-sm-6 col-md-6">
           <h6>I am familiar with...</h6>
           <ul>
             <li *ngFor="let familiarity of toolsAndTech.familiar">{{familiarity}}</li>
