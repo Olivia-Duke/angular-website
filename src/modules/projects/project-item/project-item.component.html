@@ -2,15 +2,17 @@
   <div class="card-body">
     <div class="card-title">
       <h3>{{project.title}}</h3>
+      <small *ngIf="project.dateStart || project.dateEnd">{{getDate()}}</small>
     </div>
     <div class="card-text">
+      <p *ngIf="project.notableTechnologies && project.notableTechnologies.length > 0"><em>{{getRelatedTechnologies()}}</em></p>
       <p [innerHTML]="project.description"></p>
     </div>
-    <div id="{{project.slug}}-accordion" class="accordion">
+    <div *ngIf="project.sections && project.sections.length > 0"  id="{{project.slug}}-accordion" class="accordion">
       <div id="{{project.slug}}-control">
         <button class="btn btn-dark" type="button" (click)="clicked()" data-toggle="collapse" [attr.data-target]="getDataTarget()" [attr.aria-expanded]="true" [attr.aria-controls]="getControls()">{{topButtonText()}}</button>
       </div>
-      <div id="{{project.slug}}-content" class="collapse spaced-collapse">
+      <div  id="{{project.slug}}-content" class="collapse spaced-collapse">
         <ng-container *ngFor="let section of project.sections; index as i">
           <div class="card card-body spaced-card inner-card">
             <div class="row">
