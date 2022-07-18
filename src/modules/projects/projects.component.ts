@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Project} from '../home/models/project';
+import {Project} from './project';
 import {LocalResourceService} from '../services/local-resource-service';
 
 @Component({
@@ -9,18 +9,21 @@ import {LocalResourceService} from '../services/local-resource-service';
 })
 export class ProjectsComponent implements OnInit {
 
-  resourceLocation = '/assets/text-content/projects.json';
-  projects: Project[];
+  personalProjectsLocation = '/assets/text-content/personal-projects.json';
+  workProjectsLocation = '/assets/text-content/work-projects.json';
+  personalProjects: Project[];
+  workProjects: Project[];
 
   constructor(
     private resourceService: LocalResourceService
   ) {}
 
-  ngOnInit() {
-    this.resourceService.getJsonDocument(this.resourceLocation).then(result => {
-      this.projects = result;
-    }).catch(err => {
-      console.error(err);
-    });
+  async ngOnInit() {
+    this.personalProjects = await this.loadProjectsFromLocation(this.personalProjectsLocation);
+    this.workProjects = await this.loadProjectsFromLocation(this.workProjectsLocation);
+  }
+
+  async loadProjectsFromLocation(projectLocation: string): Promise<Project[]> {
+    return this.resourceService.getJsonDocument(projectLocation);
   }
 }

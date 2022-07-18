@@ -1,0 +1,50 @@
+[
+  {
+    "title": "B2B Communications Enhancements",
+    "dateStart": {
+      "year": 2020
+    },
+    "isCurrent": true,
+    "notableTechnologies": ["Java Spring Boot", "Angular", "DB2", "Swagger UI", "OpenAPI 3.1, JSON, Mockito, JUnit4"],
+    "slug": "b2b-communications-enhancements",
+    "description": "<p>Enhancements to a full-stack application (RESTful backend, and Angular front-end)\nabstraction layer on top of an industry-leading business-to-business communications\nplatform to support the deployment of communications configurations to multiple\ninfrastructure nodes and environments.</p>\n<ul>\n  <li>Spring Boot backend RESTful API</li>\n    <ul>\n      <li>Virtual Machine Apache Server deployment via Jenkins pipeline</li>\n      <li>Mockito mocking of services for testing</li>\n      <li>JUnit4 Unit and Integration tests</li>\n    </ul>\n  <li>Angular front-end single-page application</li>\n    <ul>\n      <li>Virtual Machine Apache Server deployment via Jenkins pipeline</li>\n    </ul>\n</ul>"
+  }, {
+    "title": "API Validation Service",
+    "dateStart": {
+      "year": 2021
+    },
+    "dateEnd": {
+      "year": 2022
+    },
+    "isCurrent": false,
+    "notableTechnologies": ["Java Spring Boot", "Swagger UI", "OpenShift", "OpenAPI 3.1", "Node.js", "JSON", "Mockito", "JUnit4"],
+    "slug": "api-validation-service",
+    "description": "<p>\n  Validate an application's OpenAPI 3.X document against established company standards which were encapsulated in JSON format. Node.js CLI prototype and production deployed containerized Java Spring Boot REST API service integrated into build pipeline to ensure compliance.\n</p>\n<ul>\n  <li>Spring Boot RESTful API</li>\n  <li>OpenShift container service deployment via Jenkins pipeline</li>\n  <li>Mockito mocking of services for testing</li>\n  <li>JUnit4 unit and integration tests</li>\n  <li>Integrated into Jenkins pipeline to validate any projects with registered OpenAPI endpoint</li>\n</ul>"
+  }, {
+    "title": "API Standards",
+    "dateStart": {
+      "year": 2019
+    },
+    "dateEnd":  {
+      "year": 2020
+    },
+    "isCurrent": false,
+    "notableTechnologies": ["OpenAPI 3.1", "JSON"],
+    "slug": "api-standards",
+    "description": "<p>\n  Research and document industry standards for RESTful API development to provide guidance in developing a company-wide policy. Provide guidance to adopt OpenApi 3.1 standard.\n</p>"
+  },  {
+  "title": "Example Project for Test Frameworks",
+  "dateStart": {
+    "year": 2019,
+    "month": 9
+  },
+  "dateEnd": {
+    "year": 2019,
+    "month": 9
+  },
+  "isCurrent": false,
+  "notableTechnologies": ["Java Spring Boot Thymeleaf", "OpenShift", "Cucumber", "Selenium", "Wiremock", "Mockito", "JUnit4"],
+  "slug": "example-project-for-test-framework",
+  "description": "<p>\n  Created a sample Spring Boot Thymeleaf project to demonstrate the use of an enterprise test framework for unit and integration testing of a web MVC application.\n</p>\n<ul>\n  <li>Spring Boot Thymeleaf application</li>\n  <li>OpenShift container application deployment via Jenkins pipeline</li>\n  <li>Wiremock mocking of RESTful services for integration testing</li>\n  <li>Cucumber definition of test suites</li>\n  <li>Selenium frontend tests</li>\n  <li>JUnit4 unit and integration tests</li>\n</ul>"
+}
+]

@@ -1,7 +1,11 @@
 <div class="container">
-  <h1>Projects</h1>
-  <div *ngIf="projects; else loading">
-    <app-project-item *ngFor="let project of projects" [project]="project"></app-project-item>
+  <h1>Work Projects</h1>
+  <div *ngIf="workProjects; else loading">
+    <app-project-item *ngFor="let project of workProjects" [project]="project"></app-project-item>
+  </div>
+  <h1>Personal Projects</h1>
+  <div *ngIf="personalProjects; else loading">
+    <app-project-item *ngFor="let project of personalProjects" [project]="project"></app-project-item>
   </div>
   <ng-template #loading> <app-loading-spinner></app-loading-spinner> </ng-template>
 </div>
