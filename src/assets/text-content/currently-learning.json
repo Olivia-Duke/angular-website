@@ -1,14 +1,10 @@
 [
   {
-    "subject": "Node.js",
-    "content": "My current interests have lead me to further explore Node.js. Outside of the basic scripts I plan on delving further into using it for REST API development."
+    "subject": "Kotlin",
+    "content": "While many of my current work is based in Java, the use of Kotlin has been going up and it is beneficial to be familiar with both."
   },
   {
-    "subject": "Angular",
-    "content": "I started learning Angular in early 2017 and since then we have seen four more releases! Angular is a constantly evolving framework like so many others, so the learning is never <i>really</i> done."
-  },
-  {
-    "subject": "Spring Framework",
-    "content": "The Spring Java Framework is used heavily where I currently work so I am continuously learning about this extremely robust tool."
+    "subject": "Javalin",
+    "content": "I have become familiar with the lightweight Javalin web framework developing services for an exciting new product. "
   }
 ]
