@@ -1,6 +1,8 @@
 {
   "proficient": [
     "Java",
+    "Kotlin",
+    "Javalin",
     "Java Spring Boot",
     "Angular",
     "Node.js",
@@ -10,6 +12,7 @@
     "Wiremock"
   ],
   "familiar": [
+    "Maven",
     "PostgreSQL",
     "Selenium",
     "C#",

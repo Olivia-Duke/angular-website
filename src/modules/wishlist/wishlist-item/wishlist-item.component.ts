@@ -7,7 +7,7 @@ import {SpecificItem} from '../models/wishlist/specificItem';
   styleUrls: ['./wishlist-item.component.css']
 })
 export class WishlistItemComponent {
-  title = 'Jackson Duke | Wishlist';
+  title = 'Olivia Duke | Wishlist';
   @Input() item: SpecificItem;
 
   openLink() {

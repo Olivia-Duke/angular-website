@@ -1,10 +1,23 @@
 [
   {
+    "title": "COBOL Colleague™",
+    "dateStart": {
+      "year": 2023
+    },
+    "isCurrent": true,
+    "notableTechnologies": ["Javalin", "Java", "Kotlin", "Swagger UI", "OpenAPI 3.1, JSON, Mockito, JUnit4"],
+    "slug": "cobol-colleague",
+    "description": "<p><a href=\"https://phasechange.ai/product\">COBOL Colleague™</a> is a new tool for aiding in COBOL application understanding, refactoring, and more.</p>"
+  },
+  {
     "title": "B2B Communications Enhancements",
     "dateStart": {
       "year": 2020
     },
-    "isCurrent": true,
+    "dateEnd": {
+      "year": 2022
+    },
+    "isCurrent": false,
     "notableTechnologies": ["Java Spring Boot", "Angular", "DB2", "Swagger UI", "OpenAPI 3.1, JSON, Mockito, JUnit4"],
     "slug": "b2b-communications-enhancements",
     "description": "<p>Enhancements to a full-stack application (RESTful backend, and Angular front-end)\nabstraction layer on top of an industry-leading business-to-business communications\nplatform to support the deployment of communications configurations to multiple\ninfrastructure nodes and environments.</p>\n<ul>\n  <li>Spring Boot backend RESTful API</li>\n    <ul>\n      <li>Virtual Machine Apache Server deployment via Jenkins pipeline</li>\n      <li>Mockito mocking of services for testing</li>\n      <li>JUnit4 Unit and Integration tests</li>\n    </ul>\n  <li>Angular front-end single-page application</li>\n    <ul>\n      <li>Virtual Machine Apache Server deployment via Jenkins pipeline</li>\n    </ul>\n</ul>"

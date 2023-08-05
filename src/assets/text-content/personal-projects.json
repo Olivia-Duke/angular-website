@@ -25,7 +25,7 @@
   {
     "title": "This Website",
     "slug": "website",
-    "description": "This website was originally written using basic HTML and CSS. Multiple revisions have been done, including rewriting to better serve mobile users before eventually converting it to an Angular Single Page website.<ul><li><a href=\"https://github.com/JacksonBDuke/angular-website\">Current Iteration</a></li><li><a href=\"https://github.com/JacksonBDuke/website\">Version 2</a></li><li><a href=\"https://bitbucket.org/JacksonBDuke/website/src/master/\">Version 1</a></li></ul>Below are examples from each of these.",
+    "description": "This website was originally written using basic HTML and CSS. Multiple revisions have been done, including rewriting to better serve mobile users before eventually converting it to an Angular Single Page website.<ul><li><a href=\"https://github.com/Olivia-Duke/angular-website\">Current Iteration</a></li><li><a href=\"https://github.com/Olivia-Duke/website\">Version 2</a></li><li>Version 1</li></ul>Below are examples from each of these.",
     "sections": [
       {
         "image": "website_old_demo_01.png",
@@ -48,7 +48,7 @@
   {
     "title": "Kickstarter Grabber",
     "slug": "ks_grabber",
-    "description": "A Node.js script that grabs new comment, updates, and Kickstarter projects for a defined profile page. This would run every few minutes using Linux crontab on my remote server.<br>A webhook is then used to push these new comments, updates, and projects to a Discord server.<br>Node.js packages including fs, request, and cheerio are utilized.<br><br>You can view the project on my <a href=\"https://github.com/JacksonBDuke/kickstarter\">GitHub</a>.<br><br>Development has stalled as newer versions of the Kickstarter site have made it harder to scrape the necessary information. I may take it back up if I have the time.",
+    "description": "A Node.js script that grabs new comment, updates, and Kickstarter projects for a defined profile page. This would run every few minutes using Linux crontab on my remote server.<br>A webhook is then used to push these new comments, updates, and projects to a Discord server.<br>Node.js packages including fs, request, and cheerio are utilized.<br><br>You can view the project on my <a href=\"https://github.com/Olivia-Duke/kickstarter\">GitHub</a>.<br><br>Development has stalled as newer versions of the Kickstarter site have made it harder to scrape the necessary information. I may take it back up if I have the time.",
     "sections": [
       {
         "image": "kickstarter_grabber_demo01.png",
@@ -63,7 +63,7 @@
   {
     "title": "TTS DeckBuilder",
     "slug": "tts_deckbuilder",
-    "description": "TTS Deck Builder is a small java application that was built to aid in creating deck images for Tabletop Simulator.<br>Images are copied from the system clipboard, added to a list of stored images and then exported to a large tiled image with black borders. The grid output is 10x7 with the last (70th) position reserved for a card-back that is used for when the cards are in an opponent's hand.<br>For example purposes the images used will be solid colors.<br><br>This is a personal project whose development has stalled. I haven't used Tabletop Simulator in a while so have not had much need to use or improve it as of late. You can check out this project's development on its <a href=\"https://github.com/JacksonBDuke/TTS-DeckBuilder/wiki\">GitHub</a> page.<br>I was also working on porting this application to the .NET framework using C# Winforms. ",
+    "description": "TTS Deck Builder is a small java application that was built to aid in creating deck images for Tabletop Simulator.<br>Images are copied from the system clipboard, added to a list of stored images and then exported to a large tiled image with black borders. The grid output is 10x7 with the last (70th) position reserved for a card-back that is used for when the cards are in an opponent's hand.<br>For example purposes the images used will be solid colors.<br><br>This is a personal project whose development has stalled. I haven't used Tabletop Simulator in a while so have not had much need to use or improve it as of late. You can check out this project's development on its <a href=\"https://github.com/Olivia-Duke/TTS-DeckBuilder/wiki\">GitHub</a> page.<br>I was also working on porting this application to the .NET framework using C# Winforms. ",
     "sections": [
       {
         "image": "tts_deckbuilder_demo_01.png",
