@@ -96,21 +96,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "personal-website:build"
+            "buildTarget": "personal-website:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "personal-website:build:production"
+              "buildTarget": "personal-website:build:production"
             },
             "local": {
-              "browserTarget": "personal-website:build:local"
+              "buildTarget": "personal-website:build:local"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "personal-website:build"
+            "buildTarget": "personal-website:build"
           }
         },
         "test": {
